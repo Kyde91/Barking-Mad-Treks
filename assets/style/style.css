@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lilita One", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "Lilita One", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: rgb(255, 218, 55);
+  border-bottom: 2px solid rgba(0, 21, 209, 0.849);
+  color: rgb(0, 115, 209);
+  height: 100%;
+  width: auto;
+}
+
+.nav-container a {
+  color: rgb(0, 115, 209);
+  font-family: "Lilita One", sans-serif;
+}
+
+/* CALLOUT AND LOGO */
+.callout-container {
+  background: url(../images/dog-home.jpg) no-repeat center,
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 30vh;
+  width: auto;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+  padding: 50px;
+}
+
+.logo img {
+  border-radius: 35px;
+  width: 200px;
+  height: 150px;
+  padding: 15px;
+}
+
+/* TRUST CONTAINER AND LIST */
+
+.trust-container {
+  background-color: rgb(255, 218, 55);
+  color: rgb(0, 115, 209);
+  border-top: 2px solid rgba(0, 21, 209, 0.849);
+}
+
+.trust-title {
+  text-align: center;
+}
+
+.trust-title h1 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.trust-check {
+  margin: 0;
+  padding: 15px;
+  list-style-type: none;
+}
+
+/* QUOTES */
+.quote-container {
+  background-color: rgb(0, 115, 209);
+  color: rgb(255, 218, 55);
+  width: auto;
+  height: 100%;
+  padding: 10px;
+  border-top: 2px solid rgba(0, 21, 209, 0.849);
+  border-bottom: 2px solid rgba(0, 21, 209, 0.849);
+}
+
+.quote img {
+  width: 225px;
+  height: 225px;
+  position: relative;
+  margin: auto;
+}
+
+.quote p {
+  font-size: 14px;
+}
+
+.quote {
+  display: inline-block;
+  margin: 30px 0px 20px 0px;
+}
+
+.quote-text {
+  text-align: center;
+  padding-top: 10px;
+  margin: 0;
+}
+
+/* CONTACT */
+.contact-container {
+  background: url(../images/dog.jpg) no-repeat center,
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-blend-mode: overlay;
+  background-size: cover;
+  margin: 0;
+  padding: 15px;
+  color: white;
+}
+
+.contact-text {
+  font-size: 24px;
+}
+
+/* FOOOTER */
+.footer-container {
+  background-color: rgb(255, 218, 55);
+  border-top: 2px solid rgba(0, 21, 209, 0.849);
+  margin: 0;
+  padding: 15px 5px;
+  height: 100%;
+}
+
+.copyright {
+  padding: 5px;
+  margin: auto;
+}
+
+/* LINEBREAK */
+
+#line-break {
+  border-bottom: 1px solid rgb(255, 218, 55);
+  width: 75%;
+  margin: auto;
+}
