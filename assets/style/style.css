@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Lilita One", sans-serif;
+  font-family: "Lilita one" sans-serif;
 }
 
 body {
@@ -28,32 +28,40 @@ body {
 /* CALLOUT AND LOGO */
 .callout-container {
   background: url(../images/dog-home.jpg) no-repeat center,
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
   background-size: cover;
-  height: 30vh;
+  height: 40vh;
   width: auto;
 }
 
 .logo {
   height: 100%;
   width: auto;
-  padding: 50px;
+  padding: 20px;
 }
 
 .logo img {
   border-radius: 35px;
-  width: 200px;
-  height: 150px;
-  padding: 15px;
+  left: 10px;
+  width: auto;
+  height: 300px;
+  padding-bottom: 25px;
 }
 
 /* TRUST CONTAINER AND LIST */
+
+.gallery-header {
+  text-align: center;
+  font-family: "Lilita one" sans-serif;
+  font-size: 24px;
+}
 
 .trust-container {
   background-color: rgb(255, 218, 55);
   color: rgb(0, 115, 209);
   border-top: 2px solid rgba(0, 21, 209, 0.849);
+  padding: 10px;
 }
 
 .trust-title {
@@ -62,7 +70,7 @@ body {
 
 .trust-title h1 {
   font-size: 1.5em;
-  margin-top: 10px;
+  margin: 0;
   padding: 5px;
 }
 
@@ -111,8 +119,7 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   background-size: cover;
-  margin: 0;
-  padding: 15px;
+  padding: 25px;
   color: white;
 }
 
@@ -132,6 +139,11 @@ body {
 .copyright {
   padding: 5px;
   margin: auto;
+}
+
+.copyright p {
+  padding-top: 5px;
+  margin-bottom: 0px;
 }
 
 /* LINEBREAK */
